@@ -1,6 +1,6 @@
 # SecretSantaBot
-Secret Santa 🎅 Email Automator (R + gmailr)
-# Secret Santa Email Automator (R + gmailr)
+
+# Secret Santa 🎅 Email Automator (R + gmailr)
 
 This repository contains an R script that automatically generates Secret Santa assignments and emails each participant their gift recipient using the [`gmailr`](https://github.com/r-lib/gmailr) package. The script supports:
 
