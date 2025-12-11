@@ -4,17 +4,17 @@
 
 This repository contains an R script that automatically generates Secret Santa assignments and emails each participant their gift recipient using the [`gmailr`](https://github.com/r-lib/gmailr) package. The script supports:
 
-- 🎁 **Random Secret Santa pairings**
-- ⛔ **Forbidden pairs** (e.g., spouses, siblings, or any pair who should not draw each other)
-- 📧 **Automated email delivery** or draft creation in Gmail
-- 🔐 **OAuth 2.0 authentication** using a Google Cloud OAuth client
-- 🧪 **Example dataset with Lord of the Rings characters**
+- **Random Secret Santa pairings**  🎁
+- **Forbidden pairs** (e.g., spouses, siblings, or any pair who should not draw each other) ⛔ 
+- **Automated email delivery** or draft creation in Gmail 📧 
+- **OAuth 2.0 authentication** using a Google Cloud OAuth client 🔐 
+- **Example dataset with Lord of the Rings characters** 🧙‍♂💍🔮🌟
 - 
 This is a fun, reproducible way to manage group gift exchanges while keeping assignments secret—even from the organizer.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Randomized assignments** using a robust cycle permutation algorithm  
 - **Bidirectional forbidden-pair rules** to prevent certain participants from being matched  
@@ -24,7 +24,7 @@ This is a fun, reproducible way to manage group gift exchanges while keeping ass
 
 ---
 
-## 🔐 Google OAuth Setup
+## Google OAuth Setup
 
 To send emails using the Gmail API, you must create an OAuth 2.0 client through Google Cloud:
 
